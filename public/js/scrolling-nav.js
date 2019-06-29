@@ -11,7 +11,7 @@ $(window).scroll(function() {
 $(function() {
 
     $('a.page-scroll[href*="#"]:not([href="#"])').on('click', function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.REACT_APP_HOST_APIname == this.REACT_APP_HOST_APIname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
