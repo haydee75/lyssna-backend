@@ -27,7 +27,7 @@ router.post("/podcasts", (req, res, next) => {
 router.get("/lastTrends", (req, res, next) => {
   unirest
     .get(
-      `https://listen-api.listennotes.com/api/v2/best_podcasts/?genre_id=138&page=2&region=fr&language=French&country=France&safe_mode=1`
+      `https://listen-api.listennotes.com/api/v2/best_podcasts/?genre_id=68&page=2&region=fr&language=French&country=France&safe_mode=1`
     )
     .header("X-ListenAPI-Key", "45972432384c472f99957ea77dc60840")
     .end(function(result) {
