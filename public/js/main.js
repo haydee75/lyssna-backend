@@ -135,4 +135,18 @@
     effect: "fadeScale",
     keyboardNav: true
   });
+
+  /* BUTTON effect */
+
+  // $(function() {
+  //   $("#button").on("click", function() {
+  //     $("#effect").addClass("newClass", 200, callback);
+  //   });
+
+  //   function callback() {
+  //     setTimeout(function() {
+  //       $("#effect").removeClass("newClass");
+  //     }, 200);
+  //   }
+  // });
 })(jQuery);

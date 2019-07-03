@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/feminisme.5ddfcae1.png"
   },
   {
-    "revision": "6d833a819bd1d1264aca",
-    "url": "/static/css/main.18949356.chunk.css"
+    "revision": "32577c39e4858f8d696e",
+    "url": "/static/css/main.056c93e9.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "fb7f30b75fb5c9b22d81",
-    "url": "/static/js/2.9cf24db6.chunk.js"
+    "revision": "21d013c61f45c68bf451",
+    "url": "/static/js/2.1cfa6e37.chunk.js"
   },
   {
     "revision": "372c75d686025facb461160bc9c5f990",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/static/media/genre.10457359.png"
   },
   {
-    "revision": "6d833a819bd1d1264aca",
-    "url": "/static/js/main.eca78bbc.chunk.js"
+    "revision": "32577c39e4858f8d696e",
+    "url": "/static/js/main.97a4adbc.chunk.js"
   },
   {
     "revision": "3e2432a9371f78db97a7e0609c46262c",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/static/media/1.542bc4f9.png"
   },
   {
-    "revision": "5059eba26ba90e25753e1e37cefd0b37",
+    "revision": "f288d4b4c95a88e06de78bd3bf73d7e9",
     "url": "/index.html"
   }
 ];
