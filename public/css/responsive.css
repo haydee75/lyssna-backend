@@ -515,6 +515,9 @@
   .searchbar:focus {
     width: 100% !important;
   }
+  .invitebar:focus {
+    width: 100% !important;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 667px) {

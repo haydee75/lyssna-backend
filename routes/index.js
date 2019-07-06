@@ -3,6 +3,7 @@ const router = express.Router();
 var unirest = require("unirest");
 const Episode = require("../models/episode-model");
 const Bibliotheque = require("../models/bibliotheque-model");
+const User = require("../models/user-model");
 
 /* GET home page */
 router.post("/podcasts", (req, res, next) => {
@@ -305,6 +306,21 @@ router.get("/lastReviews", (req, res, next) => {
     .populate("reviews.user")
     .then(result => {
       res.json(result);
+    })
+    .catch(error => {
+      console.log(error);
+    });
+});
+
+// GET PROFILE FROM USER
+
+router.get("/profile/:id", (req, res, next) => {
+  let user = req.params.id;
+  User.find({
+    user: { $eq: user }
+  })
+    .then(user => {
+      res.json(user);
     })
     .catch(error => {
       console.log(error);
