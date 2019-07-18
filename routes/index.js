@@ -312,10 +312,25 @@ router.get("/lastReviews", (req, res, next) => {
     });
 });
 
-// GET PROFILE FROM USER
+// PROFILE FROM USER
+
+router.get("/profile", (req, res, next) => {
+  let displayProfile = req.body.query;
+  let user = displayProfile;
+  User.find({
+    user: { $eq: user }
+  })
+    .then(user => {
+      res.json(user);
+    })
+    .catch(error => {
+      console.log(error);
+    });
+});
 
 router.get("/profile/:id", (req, res, next) => {
   let user = req.params.id;
+  //console.log("genre", genre);
   User.find({
     user: { $eq: user }
   })

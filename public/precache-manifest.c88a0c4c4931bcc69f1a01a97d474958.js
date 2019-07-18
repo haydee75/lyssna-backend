@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/feminisme.5ddfcae1.png"
   },
   {
-    "revision": "f46632df93edd6764f59",
+    "revision": "7bea3870def665a0b681",
     "url": "/static/css/main.60cc59d5.chunk.css"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/static/media/genre.10457359.png"
   },
   {
-    "revision": "f46632df93edd6764f59",
-    "url": "/static/js/main.b45aa10c.chunk.js"
+    "revision": "7bea3870def665a0b681",
+    "url": "/static/js/main.eb0348cf.chunk.js"
   },
   {
     "revision": "3e2432a9371f78db97a7e0609c46262c",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/static/media/1.542bc4f9.png"
   },
   {
-    "revision": "ee23ef5e6b309b5d8c1cb1c218a5f68f",
+    "revision": "7eeca6cbeff30af92bbee14b85859c70",
     "url": "/index.html"
   }
 ];
